@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: windpursuer
 subtitle:
-description:
+description: 脱坑脱单不脱发呀
 keywords:
-author: John Doe
+author: windpursuer
 language:
 timezone:
 
@@ -73,9 +73,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+  type: git
+  repo: https://github.com/BookLsr/booklsr.github.io.git
+  branch: master
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
